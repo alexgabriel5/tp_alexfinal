@@ -1,0 +1,17 @@
+
+{{#each recetas}}
+<div class="card bg-light mb-3">
+        <div class="card-header">
+         <h5> {{nombre}}</h5>
+        </div>
+        <div class="card-body">
+            <div class="row">
+            <div class="col-sm-4"><img class="imgrec" src="{{foto}}" /></div><div class="col-sm-8">
+          <h5 class="card-title">{{tipo}}</h5>
+          <h5 class="card-title">{{clase}}</h5>
+          <p class="card-text">{{receta}}</p>
+        </div>
+        </div></div>
+      </div>
+{{/each}}
+
